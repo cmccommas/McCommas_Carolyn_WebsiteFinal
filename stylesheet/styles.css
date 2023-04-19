@@ -1,0 +1,137 @@
+@media only screen and (max-width: 600px){
+    .topnav {
+        padding: 1px;
+    }
+    }
+.topnav a {
+    color: maroon;
+    text-align: center;
+    padding: 50px 120px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Helvetica;
+  }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding: 50px;
+}
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+.body {
+    max-width: 100%;
+    margin: auto;
+    color: maroon;
+    font-family: Helvetica;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 90px;
+    line-height: 2;
+}
+.body2 {
+    max-width: 600px;
+    margin: auto;
+    color: maroon;
+    font-family: Helvetica;
+    text-align: center;
+    padding-bottom: 40px;
+    line-height: 1.5;
+}
+.body3 {
+    max-width: 600px;
+    margin: auto;
+    color: maroon;
+    font-family: Helvetica;
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(244, 202, 209);
+}
+.flex-container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(244, 202, 209);
+}
+.basis {
+    flex-basis: 50%;
+    display: flex
+}
+.h3 {
+    font-family: Helvetica;
+    text-align: center;
+    color: maroon
+}
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.button {
+    background-color: maroon;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+element.style {
+    object-fit: cover;
+}
+
+.scale--up {
+    transform: scale(0);
+}
+.scale--up.active {
+    animation-name: scale-up;
+    transform: scale(1);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+.fade--in {
+    opacity: 0;
+}
+.fade--in.active {
+    animation-name: fade-in;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes scale-up {
+    0% {
+        scale: 0;
+        opacity: 0;
+    }
+    100% {
+        scale: 1;
+        opacity: 100;
+    }
+}
